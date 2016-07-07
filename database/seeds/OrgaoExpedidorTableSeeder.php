@@ -1,0 +1,102 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class OrgaoExpedidorTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'ABNC – Academia Brasileira de Neurocirurgia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CBM - Corpo de Bombeiros Militar']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CGPI – Coordenação-Geral de Privilégios e Imunidades']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CGPI/DUREX/DPF – Coordenação Geral de Polícia de Imigração da Polícia Federal']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CGPMAF – Coordenadoria Geral de Polícia Marítima, Aeronáutica e de Fronteiras']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CNIG – Conselho Nacional de Imigração']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CNT - Carteira Nacional de Habilitação']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CORECON - Conselho Regional de Economia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'COREN – Conselho Regional de Enfermagem']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRA - Conselho Regional de Administração']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRAS – Conselho Regional de Assistentes Sociais']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRB – Conselho Regional de Biblioteconomia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRC – Conselho Regional de Contabilidade']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRE – Conselho Regional de Estatística']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CREA – Conselho Regional de Engenharia, Arquitetura e Agronomia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRECI – Conselho Regional de Corretores de Imóveis']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CREFIT – Conselho Regional de Fisioterapia e Terapia Ocupacional']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRF - Conselho Regional de Farmácia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-AC - Conselho Regional de Medicina do Estado do Acre']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-AL - Conselho Regional de Medicina do Estado de Alagoas']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-AP - Conselho Regional de Medicina do Estado do Amapá']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-AM - Conselho Regional de Medicina do Estado do Amazonas']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-BA - Conselho Regional de Medicina do Estado da Bahia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-CE - Conselho Regional de Medicina do Estado do Ceará']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-DF - Conselho Regional de Medicina Distrito Federal']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-ES - Conselho Regional de Medicina do Estado do Espírito Santo']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-GO - Conselho Regional de Medicina do Estado do Goiás']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-MA - Conselho Regional de Medicina do Estado do Maranhão']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-MT - Conselho Regional de Medicina do Estado do Mato Grosso']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-MS - Conselho Regional de Medicina do Estado do Mato Grosso do Sul']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-MG - Conselho Regional de Medicina do Estado de Minas Gerais']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-PA - Conselho Regional de Medicina do Estado do Pará']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-PB - Conselho Regional de Medicina do Estado da Paraíba']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-PR - Conselho Regional de Medicina do Estado do Paraná']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-PE - Conselho Regional de Medicina do Estado do Pernambuco']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-PI - Conselho Regional de Medicina do Estado do Piauí']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-RJ - Conselho Regional de Medicina do Estado do Rio de Janeiro']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-RN - Conselho Regional de Medicina do Estado do Rio Grande do Norte']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-RS - Conselho Regional de Medicina do Estado do Rio Grande do Sul']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-RO - Conselho Regional de Medicina do Estado de Rondônia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-RR - Conselho Regional de Medicina do Estado de Roraima']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-SC - Conselho Regional de Medicina do Estado de Santa Catarina']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-SP - Conselho Regional de Medicina do Estado de São Paulo']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-SE - Conselho Regional de Medicina do Estado de Sergipe']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRM-TO - Conselho Regional de Medicina do Estado de Tocantins']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRMV – Conselho Regional de Medicina Veterinária']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRN – Conselho Regional de Nutrição']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRO - Conselho Regional de Odontologia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRP – Conselho Regional de Psicologia']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRPRE – Conselho Regional de Profissionais de Relações Públicas']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRQ – Conselho Regional de Química']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CRRC – Conselho Regional de Representantes Comerciais']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CSC - Carteira Sede Carpina de Pernambuco']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'CTPS – Carteira de Trabalho e Previdência Social']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DIC - Diretoria de Identificação Civil']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DIREX – Diretoria-Executiva']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DPMAF – Divisão de Polícia Marítima, Área e de Fronteiras']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DPT – Departamento de Polícia Técnica Geral']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DST – Programa Municipal DST/Aids']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'FGTS - Fundo de Garantia do Tempo de Serviço']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'FIPE – Fundação Instituto de Pesquisas Econômicas']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'FLS - Fundação Lyndolpho Silva']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'GOVGO - Governo do Estado de Goiás']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'I CLA – Carteira de Identidade Classista']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IFP - Instituto Félix Pacheco']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IGP – Instituto Geral de Perícias']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IIMG - Inter-institutional Monitoring Group']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IML - Instituto Médico-Legal']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IPC - Índice de Preços ao Consumidor']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'IPF - Instituto Pereira Faustino']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'MAE - Ministério da Aeronáutica']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'MEX - Ministério do Exército']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'MMA - Ministério da Marinha']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'MTE - Ministério do Trabalho e Emprego']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'OAB - Ordem dos Advogados do Brasil']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'OMB – Ordens dos Músicos do Brasil']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'PC - Policia Civil']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'PM - Polícia Militar']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'PF - Polícia Federal']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'DPF - Polícia Federal']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SDS – Secretaria de Defesa Social']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SECC – Secretaria de Estado da Casa Civil']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SEJUSP – Secretaria de Estado de Justiça e Segurança Pública']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SES - Carteira de Estrangeiro']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SES ou EST - Carteira de Estrangeiro']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SESP – Secretaria de Estado da Segurança Pública']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SJS - Secretaria da Justiça e Segurança']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SJTC – Secretaria da Justiça do Trabalho e Cidadania']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SNJ – Secretaria Nacional de Justiça / Departamento de Estrangeiros']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SPTC - Secretaria de Polícia Técnico-Científica']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'SSP - Secretaria de Segurança Pública']);
+        DB::table('tb_orgao_expedidor')->insert(['nome_orgao_expedidor'=>'ZZZ - Outros (inclusive exterior)']);
+    }
+}

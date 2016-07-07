@@ -1,0 +1,106 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class EspecialidadeTableSeeder extends Seeder
+{
+    public function run()
+    {
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Acupuntura',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Alergia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Angiologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Cardiologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Clínica Geral',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Coloproctologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Dermatologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Endocrinologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Fisiatria',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Fisioterapia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Fonoaudiologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Gastroenterologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Geriatria',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Ginecologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Hematologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Homeopatia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Nefrologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Neurologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Nutrição',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Nutrologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Odontologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Oftalmologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Oncologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Ortopedia e Traumatologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Otorrinolaringologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Pediatria',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Pneumologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Psicologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Psicopedagogia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Psiquiatria',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Reumatologia',
+        ]);
+        DB::table('tb_especialidade')->insert([
+            'nome_especialidade'=>'Urologia',
+        ]);
+    }
+}
