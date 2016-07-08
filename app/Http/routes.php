@@ -12,7 +12,6 @@ Route::get('/paciente', ['as' => 'paciente.index', 'uses' => 'PacienteController
 Route::get('/paciente/editar/{id}', ['as' => 'paciente.editar', 'uses' => 'PacienteController@editar']);
 Route::get('/paciente/alterar/{id}', ['as' => 'paciente.alterar', 'uses' => 'PacienteController@alterar']);
 Route::post('/paciente/atualizar', ['as' => 'paciente.atualizar', 'uses' => 'PacienteController@atualizar']);
-
 Route::post('/paciente/salvar', ['as' => 'paciente.salvar', 'uses' => 'PacienteController@salvar']);
 
 Route::get('/medico/editar/{id}', ['as' => 'medico.editar', 'uses' => 'MedicoController@editar']);
