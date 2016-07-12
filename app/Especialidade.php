@@ -20,11 +20,6 @@ class Especialidade extends Model
 
     public static function getAllEspecialidades()
     {
-        $especialidade = Especialidade::all();
-        $option = "<option value=''></option>";
-        foreach($especialidade as $linha) {
-            $option .= "<option value='$linha->id_especialidade'> $linha->nome_especialidade</option>";
-        }
-        return $option;
+        return Especialidade::all();
     }
 }

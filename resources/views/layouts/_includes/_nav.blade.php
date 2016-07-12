@@ -36,9 +36,9 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cadastros<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="">Pacientes</a></li>
-                            <li><a href="">Médicos</a></li>
-                            <li><a href="">Administrador</a></li>
+                            <li><a href="{{ route('paciente.index') }}">Pacientes</a></li>
+                            <li><a href="{{ route('medico.index') }}">Médicos</a></li>
+                            <li><a href="{{ route('admin.index') }}">Administrador</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">

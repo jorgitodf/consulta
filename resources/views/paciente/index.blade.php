@@ -7,7 +7,7 @@
                 Cadastro de Paciente
             </h3>
         </div><br/>
-        <form class="form-horizontal" role="form" method="post" action="{{ route('paciente.salvar') }}">
+        <form class="form-horizontal" role="form" method="post" action="{{ route('paciente.cadastrar') }}">
             {{ csrf_field() }}
             <div class="panel-body">
                 <div class="col-md-6">
@@ -23,12 +23,6 @@
                         <div class="col-sm-5">
                             <input type="text" class="form-control input-sm" name="pes_nome" id="pes_nome" placeholder="Primeiro Nome" value="{{ old('pes_nome') }}" >
                         </div><span class="erro_cidade">@if ($errors->has('pes_nome')){{ $errors->first('pes_nome') }}@endif</span>
-                    </div>
-                    <div class="form-group form-group-sm">
-                        <label for="pes_sobrenome" class="col-sm-3 control-label">Sobrenome:</label>
-                        <div class="col-sm-5">
-                            <input type="text" class="form-control input-sm" name="pes_sobrenome" id="pes_sobrenome" placeholder="Sobrenome" value="">
-                        </div><span class="erro_cidade">@if ($errors->has('pes_sobrenome')){{ $errors->first('pes_sobrenome') }}@endif</span>
                     </div>
                     <div class="form-group form-group-sm">
                         <label for="pes_rg" class="col-sm-3 control-label">RG:</label>

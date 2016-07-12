@@ -13,5 +13,12 @@ Route::get('/paciente/editar/{id}', ['as' => 'paciente.editar', 'uses' => 'Pacie
 Route::get('/paciente/alterar/{id}', ['as' => 'paciente.alterar', 'uses' => 'PacienteController@alterar']);
 Route::post('/paciente/atualizar', ['as' => 'paciente.atualizar', 'uses' => 'PacienteController@atualizar']);
 Route::post('/paciente/salvar', ['as' => 'paciente.salvar', 'uses' => 'PacienteController@salvar']);
+Route::post('/paciente/cadastrar', ['as' => 'paciente.cadastrar', 'uses' => 'PacienteController@cadastrar']);
 
+Route::get('/medico', ['as' => 'medico.index', 'uses' => 'MedicoController@index']);
 Route::get('/medico/editar/{id}', ['as' => 'medico.editar', 'uses' => 'MedicoController@editar']);
+Route::post('/medico/atualizar', ['as' => 'medico.atualizar', 'uses' => 'MedicoController@atualizar']);
+Route::post('/medico/cadastrar', ['as' => 'medico.cadastrar', 'uses' => 'MedicoController@cadastrar']);
+
+
+Route::get('/admin', ['as' => 'admin.index', 'uses' => 'AdminController@index']);
